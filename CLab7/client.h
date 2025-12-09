@@ -4,7 +4,8 @@
 #include "transaction.h" 
 #include <stdio.h>
 
-typedef struct Client {
+typedef struct Client
+{
     int id;
     char fname[30];
     char sname[30];

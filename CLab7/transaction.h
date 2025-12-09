@@ -2,7 +2,8 @@
 #define TRANSACTION_H
 #include "datetime.h"
 
-typedef struct Transaction {
+typedef struct Transaction
+{
     Date date;
     Time time;
     int type;
